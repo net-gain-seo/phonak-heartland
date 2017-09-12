@@ -1,0 +1,35 @@
+.cta-flex {
+    padding: 25px 0;
+    background: url('images/site-assets/backgroundgrid.jpg');
+    .container {
+        display: flex;
+        justify-content: center;
+
+        .card {
+            flex: 0 0 26%;
+            margin: 0 25px;
+            text-align: center;
+            border: none;
+            background: none;
+
+            .card-footer {
+                border: none;
+                background: none;
+
+                a {
+                    text-transform: uppercase;
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width: 768px) {
+    .cta-flex {
+        .container {
+            flex-wrap: wrap;
+            .card {
+                flex: 1 0 100%;
+            }
+        }
+    }
+}

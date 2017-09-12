@@ -1,0 +1,144 @@
+input[type="text"], input[type="email"], input[type="number"], textarea, select {
+    padding: 10px;
+    background-color: #E6E7E8;
+    font-family: inherit;
+    color: #333;
+    max-width: 100%;
+    border: 1px solid;
+}
+.form-btn-secondary {
+    background: $white-text;
+    color: $secondary-color;
+    padding: 15px 40px 15px 40px;
+    font-weight: 300;
+    border: 1px solid $secondary-color;
+    border-radius: 0;
+    margin-top: 15px;
+
+    &:hover {
+        cursor: pointer;
+        background: $secondary-color;
+        color: $white-text;
+    }
+}
+.request-appointment-form {
+    padding: 40px 0 30px;
+    background: $req-app-form-bg;
+    color: $white-text;
+    .bannerForm {
+        div {
+            width: 19%;
+            display: inline-block;
+            float: left;
+            margin: 0 0.5%;
+        }
+    }
+    input {
+        padding: 20px 0;
+        text-indent: 20px;
+
+        &[type="submit"] {
+            margin-top: 0;
+            margin-left: 20px;
+            width: 200px;
+            text-indent: 0;
+            padding: 22px 0;
+        }
+    }
+    .g-recaptcha {
+        > div {
+            transform: scale(0.75);
+            transform-origin: 0 100%;
+            margin-top: -18px;
+        }
+    }
+}
+@media only screen and (max-width: 1199px) {
+    .request-appointment-form {
+        .g-recaptcha {
+            > div {
+                transform: scale(0.65);
+                margin-top: -17px;
+            }
+        }
+    }
+}
+@media only screen and (max-width: 991px) {
+    .request-appointment-form {
+        .bannerForm {
+            > div {
+                display: block;
+                width: 100%;
+                text-align: center;
+            }
+        }
+        .g-recaptcha {
+            > div {
+                transform: translateX(62%) scale(1);
+                margin-top: 1px;
+            }
+        }
+    }
+}
+@media only screen and (max-width: 905px) and (min-width: 768px) {
+    .main-captcha {
+        transform-origin: 0 0;
+        transform: scale(0.7);
+    }
+    .form-btn-secondary {
+        margin-top: 0;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .request-appointment-form {
+        .g-recaptcha {
+            > div {
+                transform: translateX(33%) scale(1);
+            }
+        }
+    }
+}
+@media only screen and (max-width: 575px) {
+    .request-appointment-form {
+        .g-recaptcha {
+            > div {
+                transform: scale(1);
+
+                iframe {
+                    position: relative;
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width: 390px) {
+    .request-appointment-form {
+        .g-recaptcha {
+            > div {
+                transform: scale(0.66);
+                margin-bottom: 10px;
+                margin-left: -2px;
+            }
+        }
+        .bannerForm {
+            > div {
+                text-align: left;
+                &:nth-child(4) {
+                    margin-top: -27px;
+                }
+            }
+        }
+        input {
+            margin-bottom: 10px;
+        }
+        input[type="submit"] {
+            margin-left: 0;
+        }
+    }
+}
+@media only screen and (max-width: 350px) {
+    .main-captcha {
+        transform-origin: 0 0;
+        transform: scale(0.8);
+    }
+}

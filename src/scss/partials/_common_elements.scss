@@ -1,0 +1,43 @@
+.book-appointment {
+    text-transform: uppercase;
+
+    p {
+        font-size: 1.5rem;
+        color: $white-text;
+        margin: 4px 0 0;
+    }
+    .col-md-8 {
+        text-align: right;
+    }
+    .col-md-4 {
+        text-align: left;
+    }
+    .btn-secondary {
+        padding: 5px 20px 5px 20px;
+        font-size: 1rem;
+        border: none;
+        border-radius: 0;
+    }
+    .btn-primary {
+        padding: 5px 20px 5px 20px;
+    }
+}
+.ares.nav-dir-horizontal.nav-pos-ver-center .tp-bullet-title, .ares.nav-dir-horizontal.nav-pos-ver-bottom .tp-bullet-title {
+    display: none;
+}
+.ares .tp-bullet:hover, .ares .tp-bullet.selected {
+    background: $primary-color!important;
+}
+.ares .tp-bullet {
+    background: $main-background-color!important;
+}
+.servicesection{
+  background-color: $primary-color;
+  border: 0px;
+  border-radius: 0px;
+  padding: 20px;
+
+  p{
+    margin-bottom: 0px;
+  }
+}

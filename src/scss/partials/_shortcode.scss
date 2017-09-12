@@ -1,0 +1,152 @@
+.book_now_banner{
+  background-color: $primary-color-dark;
+  color: $white-text;
+
+  p{
+    color: $white-text
+  }
+  a.button {
+      padding: 5px 20px 5px 20px;
+      margin-top: 5px;
+      display: inline-block;
+      font-size: 1.2rem;
+  }
+  .button {
+      background-color: $primary-color;
+      color: $white-text;
+      border: 1px solid $white-text;
+      border-radius: 5px;
+      font-size: 1.2rem;
+  }
+  .button:hover {
+      background-color: $white-text;
+      color: $primary-color;
+      text-decoration: none;
+      border: 1px solid $primary-color;
+  }
+}
+.book_now_banner .book_now_text {
+    color: $white-text;
+    font-size: 24px;
+    float: right;
+    margin-top: 3px;
+}
+.info_box{
+  background-color: $primary-color;
+  color: $white-text;
+
+  p{
+    color: $white-text
+  }
+  a.button {
+      padding: 5px 20px 5px 20px;
+      margin-top: 5px;
+      display: inline-block;
+  }
+  .button {
+      background-color: $secondary-color;
+      color: $white-text;
+      border: 1px solid $secondary-color;
+      border-radius: 0px;
+  }
+  .button:hover {
+      background-color: $white-text;
+      color: $secondary-color;
+      text-decoration: none;
+      border: 1px solid $secondary-color;
+  }
+}
+.infotitle {
+    color: $white-text;
+    font-size: 24px;
+    float: right;
+    margin-top: 3px;
+}
+
+
+
+div.wpcf7 {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.HearingForm h2 {
+    color: $white-text;
+    font-size: 24px;
+}
+.HearingForm{
+  background-color: $primary-color;
+  color: $white-text;
+
+  p{
+    color: $white-text
+  }
+  a.button {
+      padding: 5px 20px 5px 20px;
+      margin-top: 5px;
+      display: inline-block;
+  }
+  .button {
+      background-color: $secondary-color;
+      color: $white-text;
+      border: 1px solid $secondary-color;
+      border-radius: 0px;
+  }
+  .button:hover {
+      background-color: $white-text;
+      color: $secondary-color;
+      text-decoration: none;
+      border: 1px solid $secondary-color;
+  }
+}
+.HearingForm .col{
+  margin-bottom: 10px;
+}
+
+
+.PromotionContent{
+
+}
+
+.sliderbutton{
+    background-color: #cf9f24;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    padding: 5px 20px 5px 20px;
+    margin-top: 5px;
+    display: inline-block;
+}
+.sliderbutton:hover {
+    background-color: #fff;
+    color: #cf9f24;
+    text-decoration: none;
+    border: 1px solid #cf9f24;
+}
+.servicesection span{
+    color: white;
+    font-size: 1.2rem;
+}
+.servicesection a{
+    padding: 5px 20px 5px 20px;
+    float: right;
+    background-color: #86888B;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+.servicesection a:hover{
+    padding: 5px 20px 5px 20px;
+    float: right;
+    background-color: white;
+    color: #86888B;
+    border: 1px solid #86888B;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.servicerow h5{
+    font-weight: bold;
+    margin-top: 60px;
+}

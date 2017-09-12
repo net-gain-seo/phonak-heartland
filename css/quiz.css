@@ -1,0 +1,336 @@
+.quiz_top {
+	height: 180px;
+	background: #ED193F;
+	position: relative;
+	text-align: center;
+}
+
+.quiz_top .logo {
+	padding-top: 25px;
+}
+
+.quiz_top .back {
+	position: absolute;
+	bottom: 43px;
+	left: 70px;
+}
+
+.quiz_top .back a {
+	font-size: 16px;
+	font-family: 'Roboto';
+	font-weight: 600;
+	color: #FFF;
+	display: inline-block;
+}
+
+.quiz_top .back a:hover {
+	text-decoration: none;
+}
+
+.quiz_top .back .arrow_back {
+	width: 0px;
+	height: 0px;
+	border-right: 25px solid #7FC343;
+	border-top: 25px solid #ED193F;
+	border-bottom: 25px solid #ED193F;
+	position: relative;
+	top: 20px;
+	margin-right: 20px;
+}
+
+.quiz .question_text {
+	display: block;
+}
+
+.quiz .next {
+	height: 100px;
+	background: #231F20;
+	text-align: center;
+}
+
+.quiz .next a {
+	font-size: 30px;
+	font-family: 'Lato';
+	font-style: italic;
+	font-weight: 300;
+	line-height: 100px;
+	color: #FFF;
+	display: inline-block;
+}
+
+.quiz .arrow {
+	height: 0px;
+	width: 0px;
+	border-left: 25px solid #7FC343;
+	border-top: 25px solid #231F20;
+	border-bottom: 25px solid #231F20;
+	position: relative;
+	top: 10px;
+	left: 20px;
+}
+
+.quiz .next a:hover {
+	color: #FFF;
+	text-decoration: none;
+}
+
+.question {
+	text-align: center;
+	height: 415px;
+	padding: 25px 0;
+	position: relative;
+}
+
+.question_text {
+	font-family: 'Lato';
+	font-size: 48px;
+	font-weight: 300;
+	font-style: italic;
+	padding-top: 75px;
+	line-height: 65px;
+	display: block;
+}
+
+.question_text + .subtext {
+	font-family: 'Lato';
+	font-size: 30px;
+	font-weight: 300;
+	font-style: italic;
+	padding-top: 75px;
+	line-height: 65px;
+	display: block;
+}
+
+
+span.num_qs {
+	background: #7FC343;
+	padding: 0 25px;
+	color: #FFF;
+}
+
+.results .question_text {
+    width: 400px;
+    margin: 0 auto;
+    padding-top: 0px;
+    margin-top: -20px;
+}
+
+.results .subtext {
+	font-size: 25px;
+	padding: 5px;
+	display: block;
+}
+
+.results .qwrap .subtext {
+	font-family: 'Lato';
+	font-size: 20px;
+	font-weight: 300;
+	font-style: italic;
+	padding-top: 50px;
+	line-height: 25px;
+	display: block;
+	width: 675px;
+	margin: 0 auto;
+}
+
+.results input[type="text"] {
+	display: inline-block;
+	box-sizing: border-box;
+	border: 2px solid #231F20;
+	margin-right: 15px;
+	padding: 23px 10px;
+}
+
+.results input[name="name"] {
+	width: 275px;
+}
+
+.results input[name="telephone"] {
+	width: 210px;
+}
+
+.results input[name="email"] {
+	width: 200px;
+}
+
+.results div.submit {
+	display: inline-block;
+	text-transform: uppercase;
+	background: #7FC343;
+	padding: 17px 45px;
+	color: #FFF;
+}
+
+.results div.submit:hover {
+	cursor: pointer;
+}
+
+.results .qwrap {
+	position: relative;
+	bottom: 0;
+	left: 0;
+}
+
+.results ::-webkit-input-placeholder { /* Chrome */
+	color: #808083;
+	font-size: 16px;
+}
+.results :-ms-input-placeholder { /* IE 10+ */
+	color: #808083;
+	font-size: 16px;
+}
+.results ::-moz-placeholder { /* Firefox 19+ */
+	color: #808083;
+	font-size: 16px;
+	opacity: 1;
+}
+.results :-moz-placeholder { /* Firefox 4 - 18 */
+	color: #808083;
+	font-size: 16px;
+	opacity: 1;
+}
+
+.quiz .next a.hidden {
+	display: none;
+}
+
+.quiz .ngslides > div:first-child > div + div > a, .quiz .ngslides > div:first-child > div + div > a + a {
+	display: inline-block;
+}
+
+.custom-label {
+	font-size: 18px;
+	position: relative;
+	display: inline-block;
+	margin: 30px;
+	padding-left: 30px;
+	cursor: pointer;
+	width: 80px;
+	line-height: 30px;
+}
+
+.custom-label input {
+	position: absolute;
+	z-index: -1;
+	opacity: 0;
+}
+.check-display {
+	position: absolute;
+	top: 2px;
+	left: 0;
+	width: 120px;
+	height: 30px;
+	background: #000;
+	color: #FFF;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.gr .check-display {
+	background: #DDD;
+}
+.gr .custom-label:hover input ~ .check-display,
+.gr .custom-label input:focus ~ .check-display {
+	background: #DDD;
+}
+
+/* Hover and focus states */
+.custom-label:hover input ~ .check-display,
+.custom-label input:focus ~ .check-display {
+	background: #7FC343;
+}
+
+/* Checked state */
+.custom-label input:checked ~ .check-display {
+	background: #7FC343;
+}
+
+/* Hover state whilst checked */
+.custom-label:hover input:not([disabled]):checked ~ .check-display,
+.custom-label input:checked:focus ~ .check-display {
+	background: #7FC343;
+}
+
+/* Disabled state */
+.custom-label input:disabled ~ .check-display {
+	pointer-events: none;
+	opacity: .6;
+	background: #e6e6e6;
+}
+
+/* Check mark */
+.check-display:after {
+	position: absolute;
+	display: none;
+	content: '';
+}
+
+/* Show check mark */
+.custom-label input:checked ~ .check-display:after {
+	display: block;
+}
+
+/* Checkbox tick */
+.checkbox-label .check-display:after {
+
+}
+
+/* Disabled tick colour */
+.checkbox-label input:disabled ~ .check-display:after {
+	border-color: #FFF;
+}
+@media only screen and (max-width: 935px) {
+	.quiz .next a {
+	    font-size: 24px;
+	    font-family: 'Lato';
+	    font-style: italic;
+	    font-weight: 300;
+	    line-height: 100px;
+	    color: #FFF;
+	    display: inline-block;
+	}
+	.question_text + .subtext {
+	    font-family: 'Lato';
+	    font-size: 22px;
+	    font-weight: 300;
+	    font-style: italic;
+	    padding-top: 50px;
+	    line-height: 65px;
+	    display: block;
+	}
+	.question_text {
+	    font-family: 'Lato';
+	    font-size: 28px;
+	    font-weight: 300;
+	    font-style: italic;
+	    padding-top: 0px;
+	    line-height: 50px;
+	    width: 99%;
+	    display: block;
+	}
+	.results .question_text {
+		    width: 100%;
+		    margin: 0 auto;
+		    padding-top: 0px;
+		    margin-top: -30px;
+		}
+		.results .qwrap .subtext {
+		    font-family: 'Lato';
+		    font-size: 20px;
+		    font-weight: 300;
+		    font-style: italic;
+		    padding-top: 50px;
+		    line-height: 25px;
+		    display: none!important;
+		    width: 100%;
+		    margin: 0 auto;
+		}
+		.results input[type="text"] {
+		    display: inline-block;
+		    box-sizing: border-box;
+		    border: 2px solid #231F20;
+		    margin-right: 15px;
+		    margin-bottom: 5px;
+		    padding: 23px 10px;
+		}
+}
