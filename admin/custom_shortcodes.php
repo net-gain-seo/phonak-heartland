@@ -1,4 +1,23 @@
 <?php
+
+//ELEMENT SHORTCODE
+function element($atts,$content){
+	extract( shortcode_atts( array(
+		'tag'			=> 'div',
+        'class' 		=> ''
+    ), $atts ) );
+    $content = do_shortcode( shortcode_unautop( $content ) );
+    $content = stripParagraphs($content);
+    $return = '';
+	$return .= '<'.$tag.' class=" '.$class.'">';
+        $return .= $content;
+    $return .= '</'.$tag.'>';
+	return $return;
+}
+add_shortcode('el_1','element');
+add_shortcode('el_2','element');
+add_shortcode('el_3','element');
+
 //**********************************************************BOOK YOUR HEARING TEST TODAY! Banner & Button**************************************************************//
 function book_today($atts) {
    extract(shortcode_atts(array(
@@ -79,7 +98,7 @@ function book_today_form() {
     $booktodayform .=  '<div class="container-fluid HearingForm">';
       $booktodayform .=  '<div class="container">';
         $booktodayform .=  '<div class="row ">';
-            $booktodayform .=  do_shortcode('[contact-form-7 id="46" title="Home Contact Form"]');
+            $booktodayform .=  do_shortcode('[contact-form-7 id="46" title="Quick Blog Form"]');
         $booktodayform .=  '</div>';
       $booktodayform .=  '</div>';
     $booktodayform .=  '</div>';

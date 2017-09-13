@@ -2,10 +2,16 @@
     float: right;
     text-align: right;
     color: white;
+    p{
+    color: white;
+    }
 }
 .socialalign{
   margin-top: 20px;
   margin-bottom: 40px;
+}
+.socialalign a{
+  margin-left: 5px;
 }
 .footerlogo{
   margin-bottom: 20px;
@@ -17,6 +23,8 @@
   font-size: 0.8rem;
 }
 footer {
+  display: block;
+  clear: both;
     #footerTop {
         background: $white-text;
         padding: 25px 0 10px;
