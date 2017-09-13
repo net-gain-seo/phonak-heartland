@@ -1,3 +1,19 @@
+.button {
+  background-color: $primary-color;
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  padding: 5px 20px 5px 20px;
+  margin-top: 5px;
+  display: inline-block;
+}
+.button:hover {
+  background-color: #fff;
+  color: $primary-color;
+  text-decoration: none;
+  border: 1px solid $primary-color;
+}
 .book_now_banner{
   background-color: $primary-color-dark;
   color: $white-text;
@@ -6,23 +22,30 @@
     color: $white-text
   }
   a.button {
-      padding: 5px 20px 5px 20px;
-      margin-top: 5px;
-      display: inline-block;
-      font-size: 1.2rem;
+    background-color: $primary-color;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    padding: 5px 20px 5px 20px;
+    margin-top: 5px;
+    display: inline-block;
   }
   .button {
-      background-color: $primary-color;
-      color: $white-text;
-      border: 1px solid $white-text;
-      border-radius: 5px;
-      font-size: 1.2rem;
+    background-color: $primary-color;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    padding: 5px 20px 5px 20px;
+    margin-top: 5px;
+    display: inline-block;
   }
   .button:hover {
-      background-color: $white-text;
-      color: $primary-color;
-      text-decoration: none;
-      border: 1px solid $primary-color;
+    background-color: #fff;
+    color: $primary-color;
+    text-decoration: none;
+    border: 1px solid $primary-color;
   }
 }
 .book_now_banner .book_now_text {
@@ -44,16 +67,20 @@
       display: inline-block;
   }
   .button {
-      background-color: $secondary-color;
-      color: $white-text;
-      border: 1px solid $secondary-color;
-      border-radius: 0px;
+    background-color: $primary-color;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    padding: 5px 20px 5px 20px;
+    margin-top: 5px;
+    display: inline-block;
   }
   .button:hover {
-      background-color: $white-text;
-      color: $secondary-color;
+      background-color: #fff;
+      color: $primary-color;
       text-decoration: none;
-      border: 1px solid $secondary-color;
+      border: 1px solid $primary-color;
   }
 }
 .infotitle {
@@ -62,9 +89,6 @@
     float: right;
     margin-top: 3px;
 }
-
-
-
 div.wpcf7 {
     margin: 0;
     padding: 0;
@@ -76,7 +100,7 @@ div.wpcf7 {
     font-size: 24px;
 }
 .HearingForm{
-  background-color: $primary-color;
+  background-color: $main-background-color;
   color: $white-text;
 
   p{
@@ -88,29 +112,30 @@ div.wpcf7 {
       display: inline-block;
   }
   .button {
-      background-color: $secondary-color;
-      color: $white-text;
-      border: 1px solid $secondary-color;
-      border-radius: 0px;
+    background-color: $primary-color;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    padding: 5px 20px 5px 20px;
+    margin-top: 5px;
+    display: inline-block;
   }
   .button:hover {
-      background-color: $white-text;
-      color: $secondary-color;
-      text-decoration: none;
-      border: 1px solid $secondary-color;
+    background-color: #fff;
+    color: $primary-color;
+    text-decoration: none;
+    border: 1px solid $primary-color;
   }
 }
 .HearingForm .col{
   margin-bottom: 10px;
 }
-
-
 .PromotionContent{
 
 }
-
 .sliderbutton{
-    background-color: #cf9f24;
+    background-color: $primary-color;
     color: #fff;
     border: 1px solid #fff;
     border-radius: 5px;
@@ -121,9 +146,9 @@ div.wpcf7 {
 }
 .sliderbutton:hover {
     background-color: #fff;
-    color: #cf9f24;
+    color: $primary-color;
     text-decoration: none;
-    border: 1px solid #cf9f24;
+    border: 1px solid $primary-color;
 }
 .servicesection span{
     color: white;
@@ -148,5 +173,80 @@ div.wpcf7 {
 }
 .servicerow h5{
     font-weight: bold;
-    margin-top: 60px;
+    margin-top: 75px;
+}
+.formbutton{
+    background-color: $primary-color;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    padding: 5px 30px 5px 30px;
+    margin-top: 5px;
+    display: inline-block;
+}
+.formbutton:hover {
+    background-color: #fff;
+    color: $primary-color;
+    text-decoration: none;
+    border: 1px solid $primary-color;
+}
+.pageheading{
+    padding: 50px 0px;
+}
+.pagetitle{
+    color: #006DB6;
+    font-size: 1.5rem;
+}
+.Pagebanner{
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.Pagebanner .col {
+    padding: 8.5rem 0;
+    float: left;
+    display: table;
+}
+.bannertitle {
+    color: white;
+    font-weight: bold;
+    font-size: 3rem;
+}
+.blackstatement{
+  text-align: center;
+  color: black;
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-bottom: 0px;
+  padding: 40px 0px;
+}
+.whitestatement{
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-bottom: 0px;
+  padding: 20px 0px;
+}
+
+.fifty-fifty-section-background {
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: contain;
+  margin: 60px 0px;
+  max-height: 480px;
+}
+.d-flex {
+    display: -webkit-box!important;
+    display: -webkit-flex!important;
+    display: -ms-flexbox!important;
+    display: flex!important;
+}
+.fifty-percent-section.white-background {
+    width: 495px;
+    height: 100%;
+    background-color: white;
+}
+.container.padding0 {
+    padding: 0px;
 }

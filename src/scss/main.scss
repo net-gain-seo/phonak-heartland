@@ -10,6 +10,7 @@
 @import "partials/typeography";
 @import "partials/common_elements";
 @import "partials/shortcode";
+@import "partials/responsive";
 
 body{
     margin: 0;
@@ -18,7 +19,7 @@ body{
 p {
     line-height: 22px;
     font-family: roboto, arial, sans-serif;
-    font-weight: 300;
+    color: black;
 }
 img{
 	max-width: 100%;
