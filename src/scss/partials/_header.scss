@@ -121,11 +121,7 @@ header #socialIcons a {
   }
 }
 @media only screen and (max-width: 991px) {
-    #logo {
-        img {
-            max-width: 210px;
-        }
-    }
+
 }
 @media only screen and (max-width: 767px) {
     #headerTop .left {
@@ -145,7 +141,6 @@ header #socialIcons a {
         float: none;
         margin: auto;
         display: block;
-        max-width: 375px;
     }
     .contactButtons {
         text-align: center;

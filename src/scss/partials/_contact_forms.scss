@@ -1,6 +1,6 @@
 .greybackground{
     color: white;
-  h5{
+  h4{
       margin-top: 40px;
       margin-bottom: 25px;
   }
@@ -28,9 +28,43 @@ input[type="text"], input[type="email"], input[type="number"], textarea, select 
     width: 100%;
 }
 
+.sliderbutton {
+    background-color: $primary-color;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    padding: 5px 20px 5px 20px;
+    margin-top: 5px;
+    display: inline-block;
+}
 
+.sliderbutton:hover {
+    background-color: #fff;
+    color: $primary-color;
+    text-decoration: none;
+    border: 1px solid $primary-color;
+}
 
-.HearingForm input[type="text"], input[type="email"], input[type="number"], textarea, select {
+.formbutton {
+    background-color: $primary-color;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    padding: 5px 30px 5px 30px;
+    margin-top: 5px;
+    display: inline-block;
+}
+
+.formbutton:hover {
+    background-color: #fff;
+    color: $primary-color;
+    text-decoration: none;
+    border: 1px solid $primary-color;
+}
+
+.HearingForm input[type="text"], .HearingForm input[type="email"], .HearingForm input[type="number"], .HearingForm textarea, .HearingForm select {
     padding: 10px;
     background-color: white;
     font-family: inherit;
@@ -109,7 +143,6 @@ input[type="text"], input[type="email"], input[type="number"], textarea, select 
         div {
             width: 19%;
             display: inline-block;
-            float: left;
             margin: 0 0.5%;
         }
     }

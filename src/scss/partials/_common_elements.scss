@@ -1,3 +1,77 @@
+.pageheading {
+    padding: 50px 0px;
+}
+
+.pagetitle {
+    color: #006DB6;
+    font-size: 1.5rem;
+}
+
+.Pagebanner {
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.Pagebanner .col {
+    padding: 8.5rem 0;
+    float: left;
+    display: table;
+}
+
+.bannertitle {
+    color: white;
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.blackstatement {
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-bottom: 0px;
+    padding: 40px 0px;
+}
+
+.whitestatement {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-bottom: 0px;
+    padding: 20px 0px;
+}
+
+.fifty-fifty-section-background {
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+    margin: 60px 0px;
+    max-height: 480px;
+}
+
+.d-flex {
+    display: -webkit-box!important;
+    display: -webkit-flex!important;
+    display: -ms-flexbox!important;
+    display: flex!important;
+}
+
+.fifty-percent-section.white-background {
+    width: 495px;
+    height: 100%;
+    background-color: white;
+}
+
+.container.padding0 {
+    padding: 0px;
+}
+
+.alignimage {
+    text-align: center;
+    margin: auto;
+    display: block;
+}
 .book-appointment {
     text-transform: uppercase;
 
@@ -31,11 +105,40 @@
 .ares .tp-bullet {
     background: $main-background-color!important;
 }
+.servicesection span {
+    color: white;
+    font-size: 1.2rem;
+}
+
+.servicesection a {
+    padding: 5px 20px 5px 20px;
+    float: right;
+    background-color: #86888B;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.servicesection a:hover {
+    padding: 5px 20px 5px 20px;
+    float: right;
+    background-color: white;
+    color: #86888B;
+    border: 1px solid #86888B;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.servicerow h5 {
+    font-weight: bold;
+    margin-top: 75px;
+}
 .servicesection{
   background-color: $primary-color;
   border: 0px;
   border-radius: 0px;
   padding: 20px;
+  margin-bottom: 10px;
 
   p{
     margin-bottom: 0px;
