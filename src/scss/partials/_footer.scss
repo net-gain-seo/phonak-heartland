@@ -25,6 +25,10 @@
 footer {
   display: block;
   clear: both;
+  position: relative;
+  -moz-box-shadow: 0 -5px 10px rgba(0,0,0,0.3);
+  -webkit-box-shadow: 0 -5px 10px rgba(0,0,0,0.3);
+  box-shadow: 0 -5px 10px rgba(0,0,0,0.3);
     #footerTop {
         background: $white-text;
         padding: 25px 0 10px;
@@ -33,6 +37,7 @@ footer {
             text-align: right;
         }
     }
+
     #footerBottom {
         background: $secondary-color;
 

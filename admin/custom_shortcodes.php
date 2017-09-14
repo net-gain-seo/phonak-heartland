@@ -24,15 +24,13 @@ function book_today($atts) {
       'title'               => 'BOOK YOUR HEARING TEST TODAY!',
       'buttontitle'         => 'CONTACT US',
       'buttonurl'           => '/contact',
-       'col_left'           => 'col-md-6',
-       'col_right'          => 'col-md-6'
    ), $atts));
 return '
 <div class="container-fluid book_now_banner">
   <div class="container">
     <div class="row ">
-      <div class="col col-md-6 col-sm-12"><span class="book_now_text">'. $title .'</span></div>
-      <div class="col col-md-6 col-sm-12"><a class="button" href="'. $buttonurl .'">'. $buttontitle .'</a></div>
+      <div class="col-lg-6 col-sm-12 col-xsm-12"><span class="book_now_text">'. $title .'</span></div>
+      <div class="col-lg-6 col-sm-12 col-xsm-12"><a class="button" href="'. $buttonurl .'">'. $buttontitle .'</a></div>
     </div>
   </div>
 </div>';

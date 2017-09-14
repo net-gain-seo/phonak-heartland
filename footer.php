@@ -2,14 +2,14 @@
     <div id="footerBottom" class="clearfix">
 			<div class="container">
 				<div class="row">
-					<div class="col col-12 col-md-6 footer-left">
+					<div class="col col-12 col-sm-12 col-md-12 col-lg-6 footer-left">
 						<div>
 							<div>
 								<?php dynamic_sidebar('footer-left'); ?>
 							</div>
 						</div>
 					</div>
-					<div class="col col-12 col-md-6 footer-right">
+					<div class="col col-12 col-sm-12 col-md-12 col-lg-6 footer-right">
 						<div>
 							<div>
 								<?php dynamic_sidebar('footer-right'); ?>
