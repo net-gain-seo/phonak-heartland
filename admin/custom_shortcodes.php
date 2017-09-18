@@ -29,8 +29,8 @@ return '
 <div class="container-fluid book_now_banner">
   <div class="container">
     <div class="row ">
-      <div class="col-lg-6 col-sm-12 col-xsm-12"><span class="book_now_text">'. $title .'</span></div>
-      <div class="col-lg-6 col-sm-12 col-xsm-12"><a class="button" href="'. $buttonurl .'">'. $buttontitle .'</a></div>
+      <div class="col-lg-7 col-sm-12 col-xsm-12"><span class="book_now_text">'. $title .'</span></div>
+      <div class="col-lg-5 col-sm-12 col-xsm-12"><a class="button" href="'. $buttonurl .'">'. $buttontitle .'</a></div>
     </div>
   </div>
 </div>';

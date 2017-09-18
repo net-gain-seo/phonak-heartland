@@ -17,7 +17,9 @@
     float: left;
     display: table;
 }
-
+.text-align-center{
+    text-align: center;
+}
 .bannertitle {
     color: white;
     font-weight: bold;
@@ -48,6 +50,7 @@
     background-size: contain;
     margin: 60px 0px;
     max-height: 480px;
+    min-height: 480px;
 }
 
 .d-flex {
