@@ -36,6 +36,12 @@
 }
 
 @media only screen and (max-width: $screen-md-min) {
+    #page_sidebar {
+        background-color: #86888b;
+        padding: 40px 10px;
+        margin: 0px 0px;
+        margin-bottom: -40px;
+    }
     .HearingForm .col-xs {
             margin-bottom: 10px;
     }

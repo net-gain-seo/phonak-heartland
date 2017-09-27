@@ -8,29 +8,12 @@ $page_sidebar = get_post_meta($postId,'page_sidebar',true);
 $sidebar_location = get_post_meta($postId,'sidebar_location',true);
 $page_sidebar = 'default-sidebar';
 
-echo do_shortcode( '
-[container fluid="true" inner_class="container" background_image="http://209.126.119.193/~heartlandhearing/wp-content/uploads/2017/09/Backgroundimage.jpg" class="pageheading"]
-
-[row ]
-
-[col size="12" ]
-
-<h1 class="pagetitle">Our Latest News</h1>
-<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
-
-[/col]
-
-[/row]
-
-[/container]
-
-[HearingBannerForm]' );
-
 ?>
 <section id="pageContent" class="blogPosts innerWrapper clearfix <?php if($show_page_sidebar == 1){ echo 'hasSidebar'; } if($show_page_sidebar == 1){ echo ' sidebarOn'.$sidebar_location; } ?>" style="padding-top: 50px">
 	<div class="container">
 		<div class="row pt-0">
-			<main class="col col-12 col-md-12">
+			<main class="col col-12 col-lg-8 col-md-12">
+				<h1 class="pagetitle">Our Latest News</h1>
 				<?php
 				while ( have_posts() ) : the_post();
 					echo '<article class="clearfix articlespacing">';
@@ -57,7 +40,7 @@ echo do_shortcode( '
 
 			<?php
 			if($show_page_sidebar == 1){
-				echo '<aside id="page_sidebar" class="col col-12 col-md-4">';
+				echo '<aside id="page_sidebar" class="col col-12 col-lg-4 col-md-12">';
 				dynamic_sidebar($page_sidebar);
 				echo '</aside>';
 			}

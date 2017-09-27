@@ -153,3 +153,16 @@
 .padding50 .container > div {
     padding: 50px 0;
 }
+#page_sidebar {
+    background-color: $main-background-color;
+    padding: 40px 10px;
+    margin: -50px 0px;
+}
+.blogPosts #page_sidebar .widget {
+    list-style-type: none;
+    color: white;
+    margin-top: 40px;
+    ul li {
+        color: $primary-color!important;
+    }
+}
